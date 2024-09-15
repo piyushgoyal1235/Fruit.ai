@@ -1,0 +1,162 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+p {
+  color: #666;
+  font-size: 14px;
+}
+
+span {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  color: #666;
+  position: relative;
+}
+
+.tabs a.active {
+  color: black;
+  font-weight: bold;
+}
+
+.tabs a.active:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 2px;
+  border-bottom: 2px solid black;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.password-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.social-login {
+  margin-top: 15px;
+}
+
+.social-login a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #666;
+}
+
+.social-login a:hover {
+  color: #007bff;
+}
+
+.fingerprint {
+  margin-top: 30px;
+}
+
+.fingerprint i {
+  font-size: 40px;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .social-login a {
+    font-size: 20px;
+  }
+
+  .fingerprint i {
+    font-size: 35px;
+    /* Frame 450 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 69px;
+height: 72px;
+left: 168px;
+top: 744px;
+
+background: #0386D0;
+border: 1px solid #FFFFFF;
+border-radius: 14px;
+
+  }
+}
+

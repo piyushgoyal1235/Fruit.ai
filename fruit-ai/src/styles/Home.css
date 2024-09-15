@@ -1,0 +1,82 @@
+/* Full page container with gradient background */
+.home-container {
+  background: linear-gradient(45deg, #a6c0fe, #f68084); /* Same background gradient as FAQ page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title styling */
+.title {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Subtitle styling */
+.subtitle {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* Grid container to hold the blocks */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 1rem; /* Gap between blocks */
+  width: 90%; /* Width of the container */
+  max-width: 600px; /* Limit the max width */
+}
+
+/* Shared block styling */
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4caf50; /* Default text color */
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Hover effect for blocks */
+.block:hover {
+  transform: scale(1.05); /* Scale on hover */
+  background-color: #f68084; /* Background color change on hover */
+  color: white; /* Text color change on hover */
+}
+
+/* Specific styling for each block */
+.chat-block {
+  background-color: #fce38a; /* Yellow background */
+}
+
+.translator-block {
+  background-color: #95e1d3; /* Light blue background */
+}
+
+.faq-block {
+  background-color: #f38181; /* Light red/pink background */
+}
+
+.about-block {
+  background-color: #a6c0fe; /* Light purple background */
+}
+
+/* Responsive behavior */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* One column layout on small screens */
+  }
+}

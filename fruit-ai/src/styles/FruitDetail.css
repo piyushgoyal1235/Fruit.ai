@@ -1,0 +1,36 @@
+.fruit-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fruit-detail img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .fruit-detail h2 {
+    margin: 10px 0;
+  }
+  
+  .fruit-detail p {
+    text-align: center;
+  }
+  
+  .back-button {
+    align-self: flex-start;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,17 @@
+/* App.css */
+.app-container {
+  min-height: 100vh; /* Ensure full height for the container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* Optional: background color for the app */
+}
+
+.chatbot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width to ensure centering */
+  height: 100%; /* Full height to ensure centering */
+}
